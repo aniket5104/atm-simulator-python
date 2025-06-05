@@ -44,7 +44,7 @@ class ATM:
             depo_amount=int(input("Enter the amount to be deposited"))
             self.balance+=depo_amount
             print("Deposit Successful!")
-            print(self.balance)
+            print("Balance=",self.balance)
         else:
             print("You entered a wrong pin")
     
